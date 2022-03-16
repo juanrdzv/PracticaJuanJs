@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+h3{
+    color: rgb(197, 197, 14);
+    font-family:Arial;
+    font-size: 100%;
+}
+
+
+
+/*----------- Fondo---------------*/
+
+
+.padre{
+    display: flex;
+    width: 80%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 920px;
+    margin: 0;
+    padding: 10px;
+    background-repeat:round;
+    border: white 1px solid;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------- Izquierda---------------*/
+
+
+
+.izquierda{
+    border: rgb(73, 0, 15) 2px solid;
+    background-color: crimson;
+    border-radius: 30px 15px 40px 30px;
+    width: 50%;
+    max-width: 40%;
+    min-width: 20%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-around;
+}
+
+.displayImagen{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    min-height: 200px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: gray -1px -1px 1px 3px;
+    margin: 10px;
+}
+
+
+.caja1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 30%;
+    padding: 10px;
+    min-height: 80px;
+}
+
+
+
+.caja2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    min-width: 160px;
+    height: 100%;
+    max-height: 700px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.display{
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px 15px 15px 20px;
+    box-shadow: rgb(109, 109, 109) -1px 1px 2px 3px;
+    border: gray 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    min-height: 280px;
+}
+.caja3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 50%;
+    min-height: 150px;
+
+}
+.joystick{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content:end;
+    
+}
+
+
+.entradaNombre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#pokemonName{
+    background-color: blue;
+    border-radius: 8px;
+    width: 60%;
+    color: aliceblue;
+}
+.miniDisplay{
+    display: flex;
+    border:  rgb(47, 77, 23) 1px solid;
+    background-color: rgb(90, 153, 39);
+    border-radius: 7px;
+    width: 65%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cruz{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: start;
+    align-items: center;
+}
+
+/*----------- Derecha---------------*/
+
+
+.derecha{
+    border: rgb(73, 0, 15) 2px solid;
+    background-color: crimson;
+    border-radius: 20px 10px 30px 34px;
+    width: 50%;
+    max-width: 40%;
+    min-width: 20%;
+    height: 100%;
+    min-height: 600px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-around;
+}
+
+
+/*--- Primer Caja lado derecho CAJA 4*/
+.caja4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(13, 34, 25);
+    width: 90%;
+    height: 100%;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.caja4Superior{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
+    min-height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.tipo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    flex-direction: column;
+
+}
+
+.infoTipo{
+    display: flex;
+    width: 100%;
+    padding-left: 4%;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-size: 100%;
+
+}
+
+.fraqueza{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    flex-direction: column;
+
+}
+
+.infoFraqueza{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-height: 60px;
+    padding-left: 4%;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    font-size: 100%;
+
+}
+
+
+.caja4Inferior{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
+    min-height: 90px;  
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.infoGeneral{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+
+/*--- Segunda Caja lado derecho CAJA 5*/
+
+
+.caja5{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blueBoxes{
+    display: flex;
+    height:100%;
+    min-height: 50%;
+    width: 100%;
+    max-width: 100px;
+    border: rgba(0, 0, 0, 0.336) 1px solid;
+    background-color:rgb(0, 79, 197) ;
+    box-shadow: blue -3px 3px 7px 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.blueBoxes:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*--- Tercer Caja lado derecho CAJA 6*/
+
+
+.caja6{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    min-height: 120px;
+    justify-content: space-around;
+
+}
+
+.finalBoxes{
+    display: flex;
+    height: 100%;
+    width: 40%;
+
+}
+/*separacion de cajas interiores*/
+.finalBoxes1{
+    display: flex;
+    height: 100%;
+    min-height: 50px;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.witheBox{
+    background-color: antiquewhite;
+    border: white 2px solid;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    box-shadow: rgb(100, 100, 102) -3px -1px 1px 1px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 90%;
+
+}
+
+.finalBoxes2{
+    display: flex;
+    height: 100%;
+    min-height: 50px;
+    width: 90%;
+    justify-content:end;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.finalBoxes3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height: 50px;
+    width: 90%;
+    min-width: 60px;
+    border-radius: 4px;
+    background-color: rgb(13, 34, 25);
+    align-self: end;
+    align-items: center;
+}
+
+.infoAltura{
+    display: flex;
+    width: 60%;
+    padding-left:5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90%;
+}
+
+.finalBoxes4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height: 50px;
+    width: 90%;
+    min-width: 60px;
+    border-radius: 4px;
+    background-color: rgb(13, 34, 25);
+    align-self: end;
+    align-items: center;
+
+}
+
+
+.infoPeso{
+    display: flex;
+    font-size:90%;
+    padding-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------- Footer---------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rgb(143, 143, 143) 1px solid;
+    background-color: rgb(66, 66, 66);
+    height: 100%;
+    min-height: 227px;
+    color: rgb(168, 168, 168);
+}

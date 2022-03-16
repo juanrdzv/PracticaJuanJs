@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="Pokedex, pokemon, pokemon-go">
+    
+    <title>Pokedex</title>
+    <link rel="icon" href="./images/pokeball.png">
+    <link rel="stylesheet" href="estilosdex.css">
+
+
+</head>
+
+
+<body>
+    <!--  -->
+<div class="padre" style="background-image: url(./images/backgroundArena.jpg);" >
+    <div class="izquierda">
+        <div class="caja1">
+            <div class="focos"><img src="./images/azul.png" alt="azul" width="10%" height="70%"><img src="./images/rojo.png" alt="rojo" width="7%" height="50%"><img src="./images/amarillo.png" alt="amarillo" width="7%" height="45%"> <img src="./images/amarillo.png" alt="amarillo" width="7%" height="45%"> </div>
+        </div>
+        <h2 id="pokeNombre1" style="display: flex; align-items: center; font-family: century; font-size: 95%; text-transform: uppercase; color: rgba(0, 0, 0, 0.644);"></h2>
+        <div class="caja2">
+            <div class="display"> 
+
+                <div class="displayImagen">
+                    <img src="./images/pokeball.png" alt="pokemons" id="pokeImg" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="caja3">
+            <div class=" joystick"><input type="image" src="./images/joystickIzquierdo.png" width="50%" height="50%"></div>
+            <div class="entradaNombre">
+                <div class="nombre"><input type="text" placeholder="Name or ID Pokemon" id="pokemonName" name="pokeName" autocomplete="off"></div>
+                <div class="miniDisplay" id="nombreDisplay" >
+                    <p id="pokeId" style="display: flex; align-items: center; font-family: century; text-transform: uppercase; color: rgb(0, 0, 0); font-size: 100%; font-weight: bolder;"></p> </div>
+                </div>
+            <div class="cruz">
+                <input type="image" src="./images/keyCross.png" alt="keyCross"  width="90%" height="85%" id="searchPokemon">
+            </div>
+        </div>
+    </div>
+
+    <div class="derecha">
+            <div class="caja4">
+                <div class="caja4Superior">
+                    <div class="tipo">
+                        <h3>TYPE:</h3>
+                        <div class="infoTipo"> <p id="pokeType">__</p></div>
+                    </div>
+                
+                    <div class="fraqueza">
+                        <h3>ABILITY:</h3>
+                        <div class="infoFraqueza"> <p id="pokeFraq1">__</p><p>  </p><p id="pokeFraq2"></p></div>
+                    </div>
+
+                </div>
+
+                <div class="caja4Inferior">
+                    <div class="infoGeneral"><h3>PS</h3><p id="pokePs"></p></div>
+                    <div class="infoGeneral"><h3>ATK</h3><p id="pokeAtk"></p></div>
+                    <div class="infoGeneral"><h3>DEF</h3><p id="pokeDef"></p></div>
+                    <div class="infoGeneral"><h3>SPA</h3><p id="pokeSpAtk"></p></div>
+                    <div class="infoGeneral"><h3>SPD</h3><p id="pokeSpDef"></p></div>
+                    <div class="infoGeneral"><h3>SPE</h3><p id="pokeSpeed"></p></div>
+
+                </div>
+            </div>
+
+
+            <div class="caja5">
+                <div class="blueBoxes" id="pokeMove1"></div>
+                <div class="blueBoxes" id="pokeMove2"></div>
+                <div class="blueBoxes" id="pokeMove3"></div>
+                <div class="blueBoxes" id="pokeMove4"></div>
+                <div class="blueBoxes" id="pokeMove5"></div>
+                <div class="blueBoxes" id="pokeMove6"></div>
+                <div class="blueBoxes" id="pokeMove7"></div>
+                <div class="blueBoxes" id="pokeMove8"></div>
+                <div class="blueBoxes" id="pokeMove9"></div>
+                <div class="blueBoxes" id="pokeMove10"></div>
+            </div>
+
+
+            <div class="caja6">
+                <div class="finalBoxes">
+                    <div class="finalBoxes1">
+                        <div class="witheBox">ORDER:</div><br><p>.</p>
+                        <div class="witheBox" id="pokeForms"><p>-</p></div>
+                    </div>
+                </div>
+                <div class="finalBoxes">
+                    <div class="finalBoxes2">
+                        <img src="./images/menu.png" alt="dorado" width="20%" height="10%">
+
+                        <img src="./images/dorado.webp" alt="dorado" width="30%" height="30%">
+                    </div>
+                </div>
+                <div class="finalBoxes">
+                    <div class="finalBoxes3">
+                        <h3>Altura:</h3>
+                        <div class="infoAltura"><p id="pokeAltura"></p><p>.Mts</p></div>
+                    </div>
+                </div>
+                <div class="finalBoxes">
+                    <div class="finalBoxes4">
+                        <h3>Peso:</h3>
+                        <div class="infoPeso"><p id="pokePeso"></p><p>.Kg</p></div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <p>Desarrollado por Juan Rodriguez Villalvazo </p> <p> para LaunchX by Microsoft</p>
+    <p>Derechos Reservados</p>
+
+    <p>PokeApi</p>
+    <script src="./funciones.js"></script>
+
+</footer>
+    
+</body>
+</html>
